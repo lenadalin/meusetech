@@ -1,9 +1,20 @@
+.bouttons {
+    position:absolute;
+   top: -35px 
+}
+
+.navbar-default{
+  background-color: transparent;
+}
+    
+
 .navbar-brand {
     text-align:center;
     font-size: 18px;
     height: 60px;
     line-height: 20px;
     padding: 15px;
+   
 }
 
 .navbar-header{
