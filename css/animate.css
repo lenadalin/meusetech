@@ -11,11 +11,13 @@
 #titreAnimation2 {
   margin-left:10%;
     -webkit-animation-duration: 5s;
+     animation-duration: 5s;
 }
 
 #titreAnimation3 {
   margin-left:30%;
     -webkit-animation-duration: 7s;
+    animation-duration: 7s; 
 }
 
 

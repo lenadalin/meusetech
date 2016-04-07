@@ -1,6 +1,13 @@
+.connexBouton {
+    float:right;
+    margin-top:35px;
+    padding-left:50px;
+}
+
+
 .bouttons {
     position:absolute;
-   top: -35px 
+   top: -25px ;
 }
 
 .navbar-default{
@@ -74,8 +81,7 @@
 
 .header img {
     float:right;
-    margin-right:10%;
-
+   
     
 }
 
