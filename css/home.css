@@ -92,9 +92,9 @@
 }
 
 .panel-primary > .panel-heading {
-    background-color: #42515D;
-    border-color: #42515D;
-    border-bottom-style: groove;
+   
+    
+    
     color: #fff;
     
 }
@@ -112,6 +112,13 @@
     -moz-box-shadow:2px 2px 5px 5px #C9C9C9;
    
 }
+
+.panel-primary > .panel-heading {
+    background-color: #ACA08D;
+    border-color: #796D5A;
+    color: #fff;
+}
+
 
 body {
     background-color:#E8E7CA;
