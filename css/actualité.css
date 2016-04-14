@@ -1,3 +1,5 @@
+/* Navbar couleur */  
+
 .navbar-custom {
   background-color: #f69900;
   border-color: #d58400;
@@ -107,7 +109,7 @@
  
 }
 
-
+/* Bloc texte en haut */  
 .blocHaut {
   padding-left: 100px;
   padding-right: 100px;
@@ -122,6 +124,8 @@
 }
 
 
+
+/* Les blocs au centre */  
 .panel-primary > .panel-heading {
     background-color: #f69900;
     border-color: #282A2E;

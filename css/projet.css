@@ -1,3 +1,4 @@
+/* Navbar couleur */  
 .navbar-custom {
   background-color: #00557e;
   border-color: #003f5d;
@@ -101,13 +102,13 @@
   color: #e4dcdc;
 }
 
-
+/* Bouton pour deposer projet */  
 .boutonDepot {
   margin-top: 35px;
   margin-bottom: 35px; 
 }
 
-
+/* Bloc texte haut  */  
 .blocHaut {
   padding-left: 100px;
   padding-right: 100px;

@@ -1,10 +1,11 @@
+/* Bouton de connexion */  
 .connexBouton {
     float:right;
     margin-top:35px;
     padding-left:50px;
 }
 
-
+/* Bouttons */  
 .bouttons {
     position:absolute;
    top: -25px ;
@@ -68,7 +69,7 @@
     text-align: center;
 
 }
-
+/* Image paysage dans le header */  
 .header {
       background-image:url("../images/fond1b.png");
       background-repeat: no-repeat;
@@ -88,13 +89,16 @@
 .text-center {
     text-align: center;
     color:white;
-    font-family: Helvetica; 
+    font-family: 'Oswald', sans-serif;
 }
 
+
+
+/* Les panneaux de la partie centrale*/  
 .panel-primary > .panel-heading {
    
     
-    
+    font-family: 'Oswald', sans-serif;
     color: #fff;
     
 }
@@ -109,6 +113,7 @@
     background: #ffffff;
     box-shadow:0px 0px 5px 5px #C9C9C9;
     -webkit-box-shadow:2px 2px 5px 5x #C9C9C9;
+    font-family: 'Oswald', sans-serif;
     -moz-box-shadow:2px 2px 5px 5px #C9C9C9;
    
 }
@@ -117,13 +122,14 @@
     background-color: #ACA08D;
     border-color: #796D5A;
     color: #fff;
+    font-family: 'Oswald', sans-serif;
 }
 
 
 body {
     background-color:#E8E7CA;
     color: #333;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Oswald",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857;
 }
@@ -135,4 +141,7 @@ body {
    
 }
 
-
+.footer {
+    font-family: 'Oswald', sans-serif;
+}
+}

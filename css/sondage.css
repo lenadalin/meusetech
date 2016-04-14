@@ -1,3 +1,4 @@
+/* Navbar couleur*/  
 .navbar-custom {
   background-color: #37e100;
   border-color: #2fc000;
@@ -101,14 +102,14 @@
   color: #e4dcdc;
 }
 
-
+/* Bouton pour participer au sondage */  
 .boutonDepot {
   margin-top: 35px;
   margin-bottom: 35px; 
  
 }
 
-
+/* Bloc de Texte en haut  */  
 .blocHaut {
   padding-left: 100px;
   padding-right: 100px;
@@ -123,6 +124,7 @@
 }
 
 
+/* Trois blocs du centre */  
 .panel-primary > .panel-heading {
     background-color: #37e100;
     border-color: #282A2E;
@@ -131,7 +133,8 @@
 
 .panel-danger > .panel-heading {
     background-color: #37e100;
-    color: #fff;
+
+  color: #fff;
  
 }
 
