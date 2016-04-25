@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Formulaire </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.css"rel="stylesheet">
+  <link href="css/application.css" rel="stylesheet">
+  <link href="css/formulaire.css" rel="stylesheet">
+  
+
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+      
+    }
+    
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+	  background-color: #98B07E;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Formulaire</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="application.html">Je dépose un projet</a></li>
+      <li><a href="sondage.html">Je participe à un sondage</a></li>
+      <li><a href="actualité.html">Je suis les actualités</a></li>
+      <li><a href="application.html">Pourquoi cette application</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="blocformulaire">
+<form action="depotprojet.php" method="post" >
+
+<fieldset>
+ <legend> Formulaire à éditer </legend>
+ 
+   
+
+   
+   
+     <input type="radio" name="CSS" value="oui" id="oui"
+     checked="checked" />
+     <label for="oui" class="inline">oui</label>
+     <input type="radio" name="CSS" value="non" id="non" />
+     <label for="non" class="inline">non</label>
+	 
+  <label for="utilise">Si oui, les utilisez-vous plutôt : </label>
+   <select name="utilise" id="utilise">
+   <option value="toujours"> toujours</option>
+   <option value="parfois"> parfois</option>
+   <option value="jamais"> jamais</option>
+   </select>
+</fieldset>
+
+<fieldset>
+ <legend>Vos coordonnées :</legend>
+  <label for="email">Votre email :</label>
+   <input type="email" name="email" size="20" 
+   maxlength="40" value="email" id="email" />
+
+  <label for="comments">Vos commentaires :</label>
+   <textarea name="comments" id="comments" cols="20" rows="4">
+   </textarea>
+</fieldset>
+
+ <p>
+ <input type="submit" value="Envoyer" />
+ <input type="reset" value="Annuler" />
+ </p>
+
+</form>
+</div>
+
+<footer class="container-fluid text-center">
+    Pays de Verdun 
+ZA les Marronniers 55100 Charny sur Meuse 
+contact@meusetech.fr 
+Tél : 03 29 83 44 01 
+
+Inscrivez-vous à la newsletter
+Les fils d’actualités facebook et twitter (footer, toutes les pages, accueil ?)
+
+Pays de Verdun, WebOgreen, Leader, logo UE,
+
+Réalisé par les apprenants de la promo #1 de WebOgreen, école de codeurs en Meuse. 
+
+Mentions légales (lien) 
+Partenaires (lien)
+
+  
+</footer>
+
+</body>
+</html>
