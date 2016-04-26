@@ -53,46 +53,22 @@
 
 
 <div class="blocformulaire">
-<form action="depotprojet.php" method="post" >
-
-<fieldset>
- <legend> Formulaire à éditer </legend>
- 
-   
-
-   
-   
-     <input type="radio" name="CSS" value="oui" id="oui"
-     checked="checked" />
-     <label for="oui" class="inline">oui</label>
-     <input type="radio" name="CSS" value="non" id="non" />
-     <label for="non" class="inline">non</label>
-	 
-  <label for="utilise">Si oui, les utilisez-vous plutôt : </label>
-   <select name="utilise" id="utilise">
-   <option value="toujours"> toujours</option>
-   <option value="parfois"> parfois</option>
-   <option value="jamais"> jamais</option>
-   </select>
-</fieldset>
-
-<fieldset>
- <legend>Vos coordonnées :</legend>
-  <label for="email">Votre email :</label>
-   <input type="email" name="email" size="20" 
-   maxlength="40" value="email" id="email" />
-
-  <label for="comments">Vos commentaires :</label>
-   <textarea name="comments" id="comments" cols="20" rows="4">
-   </textarea>
-</fieldset>
-
- <p>
- <input type="submit" value="Envoyer" />
- <input type="reset" value="Annuler" />
- </p>
-
-</form>
+<!-- Début formulaire -->
+<link rel="stylesheet" href="formulaire_files/formoid1/formoid-solid-green.css" type="text/css" />
+<script type="text/javascript" src="formulaire_files/formoid1/jquery.min.js"></script>
+<form enctype="multipart/form-data" class="formoid-solid-green" style="background-color:#aaff7f;font-size:14px;font-family:'Roboto',Arial,Helvetica,sans-serif;color:#34495E;max-width:480px;min-width:150px" method="post"><div class="title"><h2>Dépot de Projet</h2></div>
+	<div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="input2" placeholder="Titre de votre projet"/><span class="icon-place"></span></div></div>
+	<div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="input" placeholder="Thématique dominante"/><span class="icon-place"></span></div></div>
+	<div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="input3" placeholder="Où est localisé le projet?"/><span class="icon-place"></span></div></div>
+	<div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="input4" placeholder="Territoire Impacté"/><span class="icon-place"></span></div></div>
+	<div class="element-date"><label class="title"></label><div class="item-cont"><input class="large" data-format="yyyy-mm-dd" type="date" name="date" placeholder="Date de démarrage du projet"/><span class="icon-place"></span></div></div>
+	<div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="input5" placeholder="Etat d'avancement"/><span class="icon-place"></span></div></div>
+	<div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="input7" placeholder="Description"/><span class="icon-place"></span></div></div>
+	<div class="element-input"><label class="title"></label><div class="item-cont"><input class="large" type="text" name="input6" placeholder="Description"/><span class="icon-place"></span></div></div>
+	<div class="element-file"><label class="title"></label><div class="item-cont"><label class="large" ><div class="button">Télécharger une  image</div><input type="file" class="file_input" name="file" /><div class="file_text">Télécharger une image  </div><span class="icon-place"></span></label></div></div>
+	<div class="element-url"><label class="title"></label><div class="item-cont"><input class="large" type="url" name="url"  placeholder="Lien en rapport avec le projet"/><span class="icon-place"></span></div></div>
+<div class="submit"><input type="submit" value="Enregister mon projet"/></div></form><p class="frmd"><a href="http://formoid.com/v29.php"></a></p><script type="text/javascript" src="formulaire_files/formoid1/formoid-solid-green.js"></script>
+<!-- Fin formulaire-->
 </div>
 
 <footer class="container-fluid text-center">
