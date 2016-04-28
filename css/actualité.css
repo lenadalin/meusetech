@@ -1,8 +1,12 @@
+body {
+  background-color:#E8E7CA;
+}
+
 /* Navbar couleur */  
 
 .navbar-custom {
   background-color: #f69900;
-  border-color: #d58400;
+  
 }
 .navbar-custom .navbar-brand {
   color: #ffffff;
