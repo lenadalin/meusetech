@@ -1,9 +1,23 @@
 
 
-/* Navbar couleur*/  
+.imagePc {
+  display: inline-block;
+    width: 150px;
+    border: 1px solid black;
+    margin-top:20px;
+   
+}
+
+
+body {
+  background-color:#D0C9AF;
+  background-image:url(/images/fondlac.jpg);
+  }
+
+/* Navbar couleur */  
 .navbar-custom {
-  background-color: #37e100;
-  border-color: #2fc000;
+  background-color: #00557e;
+  border-color: #003f5d;
 }
 .navbar-custom .navbar-brand {
   color: #ffffff;
@@ -17,11 +31,11 @@
   color: #ffffff;
 }
 .navbar-custom .navbar-nav > li:last-child > a {
-  border-right: 1px solid #2fc000;
+  border-right: 1px solid #003f5d;
 }
 .navbar-custom .navbar-nav > li > a {
   color: #ffffff;
-  border-left: 1px solid #2fc000;
+  border-left: 1px solid #003f5d;
 }
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
@@ -32,7 +46,7 @@
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: #e4dcdc;
-  background-color: #2fc000;
+  background-color: #003f5d;
 }
 .navbar-custom .navbar-nav > .disabled > a,
 .navbar-custom .navbar-nav > .disabled > a:hover,
@@ -52,7 +66,7 @@
 }
 .navbar-custom .navbar-collapse,
 .navbar-custom .navbar-form {
-  border-color: #2ebd00;
+  border-color: #003d5a;
 }
 .navbar-custom .navbar-nav > .dropdown > a:hover .caret,
 .navbar-custom .navbar-nav > .dropdown > a:focus .caret {
@@ -62,7 +76,7 @@
 .navbar-custom .navbar-nav > .open > a,
 .navbar-custom .navbar-nav > .open > a:hover,
 .navbar-custom .navbar-nav > .open > a:focus {
-  background-color: #2fc000;
+  background-color: #003f5d;
   color: #e4dcdc;
 }
 .navbar-custom .navbar-nav > .open > a .caret,
@@ -88,7 +102,7 @@
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #e4dcdc;
-    background-color: #2fc000;
+    background-color: #003f5d;
   }
   .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -104,19 +118,25 @@
   color: #e4dcdc;
 }
 
-.blocformulaire {
-  margin-left: auto;
-  margin-right: auto;
-  width:1200px; 
- 
+/* Bouton pour deposer projet */  
+.boutonFlotte {
+  margin-right:545px;
+
 }
 
-body {
- font-family:"trebuchet ms",sans-serif;
- font-size:100%;
-background-color:#E8E7CA;
- }
+/* Bloc texte haut  */  
+.blocHaut {
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
+
+body {
+    color: #00557E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
 
 */form*/
 
@@ -134,7 +154,7 @@ html{
   margin: 8px;
 }
 .formoid-solid-green .error-field .required{
-  color:#FF9999;
+  color:#00557E;
 }
 .formoid-solid-green .error-field input,
 .formoid-solid-green .error-field input[type=text],
@@ -146,7 +166,7 @@ html{
 .formoid-solid-green .error-field input[type=tel],
 .formoid-solid-green .error-field textarea{
   border-color:#D893A1;
-  background-color: #E8E7CA;
+  background-color: ##00557E;
 }
 .formoid-solid-green label.error{
   display:inline-block;
@@ -156,12 +176,12 @@ html{
 .formoid-solid-green .error #recaptcha_widget_div{
   padding: 3px 14px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  background-color: #fcf8e3;
+  background-color: #00557E;
   border: 1px solid #fbeed5;
   border-radius: 4px;
 
   color: #b94a48;
-  background-color: #f2dede;
+  background-color: #00557E;
   border-color: #eed3d7;
   color: #c09853;
 }

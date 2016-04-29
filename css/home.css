@@ -42,73 +42,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 
-*/footer début */
+/*--footer--*/
 
 
-*::before, *::after {
-    box-sizing: border-box;
-}
-*::before, *::after {
-    box-sizing: border-box;
-}
-footer .logoFooter img {
-    max-width: 160px;
-    padding-top: 35px;
-    width: 100%;
+
+
+.logo_footer img {
+	float:left;
+	margin-right:20px;
+    max-width: 200px;
+    
+    width: 80%;
     vertical-align: left;
 }
-img {
-    vertical-align: middle;
-}
-img {
-    border: 0 none;
-}
-* {
-    box-sizing: border-box;
-}
 
-*::before, *::after {
-    box-sizing: border-box;
-}
-*::before, *::after {
-    box-sizing: border-box;
-}
-footer .financeurs img {
+footer .mini_logo_footer img {
     display: inline-block;
     margin: 5px auto;
     max-height: 8rem;
     max-width: 100%;
 }
-img {
-    vertical-align: middle;
-}
-img {
-    border: 0 none;
-}
-* {
-    box-sizing: border-box;
-}
 
-*::before, *::after {
-    box-sizing: border-box;
-}
-*::before, *::after {
-    box-sizing: border-box;
-}
-footer .financeurs {
-    margin-left: 8.33333%;
-}
-footer .financeurs {
-    float: left;
-    width: 83.3333%;
-}
-footer .financeurs {
-    margin-top: 1.5rem;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-}
+
 .text-center, .derniers-projets h2, .form-actu h1, .navbar-all .navbar-text, .navbar-all .navbar-collapse a, .navbar-intro .navbar-collapse.in a {
     text-align: center;
 }
@@ -119,6 +74,7 @@ footer .financeurs {
 footer .newsletter .input-lg, footer .newsletter .input-group-lg > .form-control, footer .newsletter .input-group-lg > input, footer .newsletter .input-group-lg > textarea, footer .newsletter .input-group-lg > select, footer .newsletter .input-group-lg > .input-group-addon, footer .newsletter .input-group-lg > .input-group-btn > .btn, footer .newsletter .navbar-intro .navbar-right .input-group-lg > .input-group-btn > a, .navbar-intro .navbar-right footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .facebook .input-group-lg > .input-group-btn > a, .facebook footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .twitter .input-group-lg > .input-group-btn > a, .twitter footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .coeur .input-group-lg > .input-group-btn > a, .coeur footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter input, footer .newsletter textarea, footer .newsletter .input-group-lg > .form-control, footer .newsletter .input-group-lg > input, footer .newsletter .input-group-lg > textarea, footer .newsletter .input-group-lg > select, footer .newsletter .input-group-lg > .input-group-addon, footer .newsletter .input-group-lg > .input-group-btn > .btn, footer .newsletter .navbar-intro .navbar-right .input-group-lg > .input-group-btn > a, .navbar-intro .navbar-right footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .facebook .input-group-lg > .input-group-btn > a, .facebook footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .twitter .input-group-lg > .input-group-btn > a, .twitter footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .coeur .input-group-lg > .input-group-btn > a, .coeur footer .newsletter .input-group-lg > .input-group-btn > a {
     height: 47px;
     width: 80px;
+	margin-left:2%;
 }
 footer .newsletter .input-lg, footer .newsletter .input-group-lg > .form-control, footer .newsletter .input-group-lg > input, footer .newsletter .input-group-lg > textarea, footer .newsletter .input-group-lg > select, footer .newsletter .input-group-lg > .input-group-addon, footer .newsletter .input-group-lg > .input-group-btn > .btn, footer .newsletter .navbar-intro .navbar-right .input-group-lg > .input-group-btn > a, .navbar-intro .navbar-right footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .facebook .input-group-lg > .input-group-btn > a, .facebook footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .twitter .input-group-lg > .input-group-btn > a, .twitter footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .coeur .input-group-lg > .input-group-btn > a, .coeur footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter input, footer .newsletter textarea, footer .newsletter .input-group-lg > .form-control, footer .newsletter .input-group-lg > input, footer .newsletter .input-group-lg > textarea, footer .newsletter .input-group-lg > select, footer .newsletter .input-group-lg > .input-group-addon, footer .newsletter .input-group-lg > .input-group-btn > .btn, footer .newsletter .navbar-intro .navbar-right .input-group-lg > .input-group-btn > a, .navbar-intro .navbar-right footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .facebook .input-group-lg > .input-group-btn > a, .facebook footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .twitter .input-group-lg > .input-group-btn > a, .twitter footer .newsletter .input-group-lg > .input-group-btn > a, footer .newsletter .coeur .input-group-lg > .input-group-btn > a, .coeur footer .newsletter .input-group-lg > .input-group-btn > a {
     height: 47px;
@@ -133,6 +89,7 @@ footer .newsletter .input-lg, footer .newsletter .input-group-lg > .form-control
     width: 80px;
 }
 footer .newsletter input {
+	
     color: #333333;
     font-size: 0.9rem;
     height: 47px;
@@ -175,7 +132,7 @@ footer .newsletter input {
     line-height: 1.42857;
     padding: 6px 12px;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-    width: 100%;
+    width: 40%;
 }
 input, button, select, textarea {
     font-family: inherit;
@@ -246,7 +203,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
 }
 
-*/footer fin */
+/*--footer--*/
 
 
 
