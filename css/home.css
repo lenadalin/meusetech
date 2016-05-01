@@ -4,10 +4,18 @@
     margin-top:35px;
     padding-left:50px;
 }
+.ligne-grise {
+    background-color:#ACA08D;
+    height: 0.5rem;
+}
 
 
-
-
+.texteIntro {
+    font-family:Impact;
+    margin-left:350px;
+    color:#ACA08D
+    font-size:190px;
+}
 
 
 footer::before, footer::after {
@@ -190,8 +198,8 @@ footer::before, footer::after {
     box-sizing: border-box;
 }
 footer {
-    background-color: #55a603;
-    border-top: 0.5rem solid #255804;
+    background-color: #ACA08D;
+    border-top: 0.5rem solid #ACA08D;
     color: #fff;
     margin-top: 2rem;
     padding: 2rem;
@@ -304,6 +312,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     
     font-family: 'Oswald', sans-serif;
     color: #fff;
+    text-align:center;
     
 }
 
