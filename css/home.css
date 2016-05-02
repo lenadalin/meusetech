@@ -9,7 +9,7 @@
     height: 0.5rem;
 }
 
-
+/* Texte intro projets */  
 .texteIntro  {
     font-family: 'Passion One', cursive;
     margin-left:350px;
@@ -17,6 +17,9 @@
     font-size:280px;
 }
 
+
+
+/*--footer--*/
 
 footer::before, footer::after {
     content: " ";
@@ -48,9 +51,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 * {
     box-sizing: border-box;
 }
-
-
-/*--footer--*/
 
 
 
@@ -211,6 +211,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     box-sizing: border-box;
 }
 
+.footer {
+    font-family: 'Oswald', sans-serif;
+}
+
 /*--footer--*/
 
 
@@ -306,7 +310,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 
 
-/* Les panneaux de la partie centrale*/  
+/* Les 3 blocs de la partie centrale*/  
 .panel-primary > .panel-heading {
    
     
@@ -356,7 +360,5 @@ body {
    
 }
 
-.footer {
-    font-family: 'Oswald', sans-serif;
-}
-}
+
+
