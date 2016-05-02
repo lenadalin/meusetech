@@ -1,0 +1,21 @@
+body {
+    background-color:#E8E7CA;
+    color: #333;
+    font-family: "Oswald",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    font-style:bold;
+}
+
+
+
+.ligne-grise {
+    background-color:#ACA08D;
+    height: 0.5rem;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+ color:#282A2E;
+} 

@@ -18,7 +18,7 @@
 /* Texte intro projets */  
 .texteIntro  {
     font-family: 'Passion One', cursive;
-    margin-left:350px;
+    margin-left:390px;
     color:#ACA08D
     font-size:280px;
 }
@@ -359,12 +359,7 @@ body {
     line-height: 1.42857;
 }
 
-.mainIndex{
- 
-    padding:0px;
-   
-   
-}
+
 
 
 
