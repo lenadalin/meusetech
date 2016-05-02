@@ -1,7 +1,3 @@
-.troisBlocs p {
-    padding:10px;
-}
-
 .imagePc {
   display: inline-block;
     width: 150px;
@@ -23,14 +19,12 @@
     background-color: #00557E;
     border-color: #282a2e;
     color: #fff;
-    
 
 }
 .panel-primary > .panel-heading {
     background-color: #00557E;
     color: #fff;
      border-color: #282a2e;
-      padding: 10px 15px;
 }
 .panel-heading {
     border-bottom: 1px solid transparent;
@@ -165,11 +159,9 @@
 }
 
 /* Bloc texte haut  */  
-.blocHaut {
-  padding-left: 100px;
-  padding-right: 100px;
+.centrage {
+    text-align:center;
 }
-
 
 body {
     background-color:#E8E7CA;
